@@ -21,12 +21,15 @@ Description: Using the bookdown package and LaTeX and Word
     of the R code to produce plots and analyses as well.
 License: MIT + file LICENSE
 Depends:
-    bookdown,
+    R (>= 3.2.0)
+Imports: 
+    bookdown
+Suggests: 
     devtools,
     dplyr,
     ggplot2,
     knitr,
-    R (>= 3.2.0)
+    thesisdown
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.0.2
