@@ -1,19 +1,111 @@
 ---
-author: 'Your R. Name'
-date: 'May 20xx'
-institution: 'Reed College'
-division: 'Mathematics and Natural Sciences'
-advisor: 'Advisor F. Name'
-# If you have more two advisors, un-silence line 7
-#altadvisor: 'Your Other Advisor'
-department: 'Mathematics'
-degree: 'Bachelor of Arts'
-title: 'My Final College Paper'
+############################
+#### Page de garde EDMH ####
+############################
+auteur: "Prénom NOM"
+date: "Jour Mois Année"
+titre: "Titre de la thèse"
+##
+#### Numéro national de thèse ####
+##
+NNT: '2019SACLY000'
+##
+#### Spécialité ####
+##
+# specialite: Mathématiques fondamentales
+specialite: Mathématiques appliquées
+# specialite: Mathématiques aux interfaces
+##
+## Établissement inscrpipteur et logo
+##
+inscripteur: "Université d'Évry-Val d'Essonne"
+logo_inscripteur: "logos/logoEvry.jpg"
+taille_logo_inscripteur: "2cm"
+# inscripteur: Centrale-Supélec
+# logo_inscripteur:
+# taille_logo_inscripteur:
+# inscripteur: Ecole polytechnique
+# logo_inscripteur:
+# taille_logo_inscripteur: 
+# inscripteur: Ecole normale supérieure
+# logo_inscripteur:
+# taille_logo_inscripteur: 
+# inscripteur: Ecole normale supérieure de Cachan
+# logo_inscripteur:
+# taille_logo_inscripteur: 
+# inscripteur: École nationale de la statistique et de l'administration économique
+# logo_inscripteur:
+# taille_logo_inscripteur: 
+# inscripteur: École nationale supérieure de techniques avancées
+# logo_inscripteur:
+# taille_logo_inscripteur: 
+# inscripteur: Ecole des hautes études commerciales de Paris
+# logo_inscripteur:
+# taille_logo_inscripteur: 
+# inscripteur: Telecom SudParis
+# logo_inscripteur:
+# taille_logo_inscripteur: 
+# inscripteur: Telecom ParisTech
+# logo_inscripteur:
+# taille_logo_inscripteur: 
+# inscripteur: Université d'Evry-Val d'Essonne
+# logo_inscripteur:
+# taille_logo_inscripteur: 
+# inscripteur: Université Paris-Sud
+# logo_inscripteur:
+# taille_logo_inscripteur: 
+# inscripteur: Université de Versailles Saint-Quentin-en-Yvelines
+# logo_inscripteur:
+# taille_logo_inscripteur: 
+##
+#### Établissement d'accueil et logo si différent du précédent ####
+##
+accueil: "AgroParisTech"
+logo_accueil: "logos/logoAgro.jpg"
+taille_logo_accueil: "2.5cm"
+##
+#### Laboratoire d'accueil et logo ####
+##
+labo: "Laboratoire de mathématiques et modélisation d'Évry, UMR 8071 CNRS-INRA"
+logo_labo: "logos/logoLAMME.jpg"
+taille_logo_labo: "1.6cm"
+##
+#### Rapporteurs ####
+##
+rapporteur1: "Prénom NOM 1"
+institution_rapporteur1: "Institution 1"
+rapporteur2: "Prénom NOM 2"
+institution_rapporteur2: "Institution 2"
+##
+#### Jurés par ordre alphabétique des membres ####
+##
+jure_1: "Prénom NOM 1"
+institution_jure_1: "Institution 1"
+role_jure_1: "Rapporteur"
+jure_2: "Prénom NOM 2"
+institution_jure_2: "Institution 2"
+role_jure_2: "Codirecteur de thèse"
+jure_3: "Prénom NOM 3"
+institution_jure_3: "Institution 3"
+role_jure_3: "Examinateur"
+jure_4: "Prénom NOM 4"
+institution_jure_4: "Institution 4"
+role_jure_4: "Examinateur"
+jure_5: "Prénom NOM 5"
+institution_jure_5: "Institution 4"
+role_jure_5: "Codirecteur de thèse"
+jure_6: "Prénom NOM 6"
+institution_jure_6: "Institution 6"
+role_jure_6: "Invité"
+######################################
+#### Quatrième de couverture EDMH ####
+######################################
+
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 output: 
-#  thesisdown::thesis_pdf: default
-  thesisdown::thesis_gitbook: default
+ thesisdown::thesis_pdf: default
+ thesisdown::thesis_gitbook: default
 #  thesisdown::thesis_word: default
 #  thesisdown::thesis_epub: default
 # If you are creating a PDF you'll need to write your preliminary content (e.g., abstract, acknowledgements) here or

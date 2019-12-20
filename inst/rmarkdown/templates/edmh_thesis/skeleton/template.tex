@@ -73,31 +73,6 @@ $if(highlighting-macros)$
   $highlighting-macros$
 $endif$
 
-% To pass between YAML and LaTeX the dollar signs are added by CII
-\title{$title$}
-\author{$author$}
-% The month and year that you submit your FINAL draft TO THE LIBRARY (May or December)
-\date{$date$}
-\division{$division$}
-\advisor{$advisor$}
-\institution{$institution$}
-\degree{$degree$}
-%If you have two advisors for some reason, you can use the following
-% Uncommented out by CII
-$if(altadvisor)$
-\altadvisor{$altadvisor$}
-$endif$
-% End of CII addition
-
-%%% Remember to use the correct department!
-\department{$department$}
-% if you're writing a thesis in an interdisciplinary major,
-% uncomment the line below and change the text as appropriate.
-% check the Senior Handbook if unsure.
-%\thedivisionof{The Established Interdisciplinary Committee for}
-% if you want the approval page to say "Approved for the Committee",
-% uncomment the next line
-%\approvedforthe{Committee}
 
 % Added by CII
 %%% Copied from knitr
@@ -127,22 +102,6 @@ $endif$
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
-\Acknowledgements{
-$acknowledgements$
-}
-
-\Dedication{
-$dedication$
-}
-
-\Preface{
-$preface$
-}
-
-\Abstract{
-$abstract$
-}
-
 $for(header-includes)$
 	$header-includes$
 $endfor$
@@ -154,10 +113,229 @@ $endfor$
 
 \begin{document}
 
-% Everything below added by CII
-$if(title)$
-  \maketitle
+\thispagestyle{empty}
+\vspace{-2cm}
+
+\voffset-10pt
+
+
+%%%
+%% premiere ligne avec logo légaux et numéro national de thèse
+%% (modifier les symboles % en début de lignes
+%%  pour obtenir la configuration souhaitée)
+%%%
+\noindent
+\hspace*{-1cm}\hbox{\includegraphics[width=8.6cm]{logos/ed_edmh-h.jpg}}
+\hfill
+\hspace*{-0.4cm}{\small {\bf NNT : $NNT$}}
+%%%
+%% Numéro National de Thèse, à préciser lors du second dépôt
+%% de la thèse post-soutenance
+%%%
+\hfill
+%%%
+%% logo Etablissement inscripteur
+%% (modifier les symboles % en début de lignes
+%% pour obtenir la configuration souhaitée, et ajuster
+%% éventuellement la taille) En cas de cotutelle internationale,
+%% mettre à la place le logo de l'université étrangère et rajouter
+%% en bas de page le logo de l'établissement inscripteur
+%%%
+%\hbox{\includegraphics[width=2.3cm]{logoCentraleSupelec.jpg}}
+%\hbox{\includegraphics[width=2cm]{logoHEC.jpg}}
+%\hbox{\includegraphics[width=2cm]{logoENSAE.jpg}}
+%\hbox{\includegraphics[width=2cm]{logoENSCachan.jpg}}
+%\hbox{\includegraphics[width=1.5cm]{logoENS.jpg}}
+%\hbox{\includegraphics[width=1.9cm]{logoENSTA.jpg}}
+%\hbox{\includegraphics[width=2.7cm]{logoUPSud_UPSaclay.jpg}}
+%\hbox{\includegraphics[width=2cm]{logoTelecom.jpg}}
+\hbox{\includegraphics[width=$taille_logo_inscripteur$]{$logo_inscripteur$}}
+%\hbox{\includegraphics[width=2.2cm]{logoUVSQ.jpg}}
+%\hbox{\includegraphics[width=2.5cm]{logoX.jpg}}
+\vspace{7mm}
+
+\begin{center}
+{\Large\bf THÈSE DE DOCTORAT}
+\end{center}
+\begin{center}
+{de }
+\end{center}
+\begin{center}
+ {\Large\sc l'Université Paris-Saclay}\\
+  \vspace*{0.4cm}
+École doctorale de mathématiques Hadamard (EDMH, ED 574)\\
+ \vspace*{0.4cm}
+%%%
+%% nom établissement inscripteur
+%%%
+{\small \it Établissement d'inscription : }
+$inscripteur$
+
+%    Centrale-Supélec\\
+%    Ecole polytechnique\\
+%    Ecole normale supérieure\\
+%    Ecole normale supérieure de Cachan\\
+%    \'Ecole nationale de la statistique et de l'administration économique\\
+%    \'Ecole nationale supérieure de techniques avancées\\
+%    Ecole des hautes études commerciales de Paris\\
+%    Telecom SudParis\\
+%    Telecom ParisTech\\
+%    Université d'Evry-Val d'Essonne\\
+%    Université Paris-Sud\\
+%   Université de Versailles Saint-Quentin-en-Yvelines\\
+ \vspace*{0.2cm}
+%%%
+%% nom établissement(s) d'accueil, si différent du précédent
+%%%
+$if(accueil)$
+{\small \it \'Etablissement d'accueil : }
+$accueil$
+
+%    AgroParisTech\\
+%    Commissariat \`a l'énergie atomique et aux énergies alternatives\\
+    % Institut des hautes études scientifiques\\
+%    Institut national de la recherche agronomique\\
+\vspace*{0.2cm}
 $endif$
+%%%
+%% nom laboratoire(s) d'accueil
+%%%
+{\small \it Laboratoire d'accueil : }
+$labo$
+%  Centre de mathématiques appliquées de Polytechnique, UMR 7641 CNRS\\
+%  Centre de mathématiques et de leurs applications, UMR 8536 CNRS\\
+%  Centre de mathématiques Laurent Schwartz, UMR 7640 CNRS\\
+%  Département de mathématiques et applications, UMR 8553 CNRS\\
+%  ENSAE-X Centre d'économie, statistique et sociologie, UMR 9194 CNRS\\
+%  Fédération de Mathématiques, FR 3487 CNRS\\
+%  Groupement de recherche et d'études en gestion (GREGHEC), UMR 8071 CNRS\\
+%  Institut de physique théorique de Saclay, URA 2306 CNRS\\
+%Laboratoire Alexander Grothendieck (ERL 9216 CNRS)\\
+%  Laboratoire de mathématiques d'Orsay, UMR 8628 CNRS\\
+%  Laboratoire de mathématiques de Versailles, UMR 8100 CNRS\\
+%  Laboratoire de mathématiques et modélisation d'\'Evry, UMR 8071 CNRS-INRA\\
+%  Laboratoire traitement et communication de l'information, UMR 5141 CNRS\\
+%  Mathématiques et informatique appliquées, UMR 518 INRA\\
+%  Mathématiques et informatique appliquées du génome \`a l'environnement, UR 1404
+%  Services répartis, architectures, modélisation, validation, administration des réseaux, UMR 5157 CNRS\\
+%  Unité de mathématiques appliquées, ENSTA-CNRS-INRIA\\
+\vspace*{0.2cm}
+\end{center}
+
+
+
+
+\begin{center}
+{\it Spécialité de doctorat : }
+%%%
+%%  Choisir l'une des trois spécialités suivantes (soumis à
+%%  accord du comité de direction de l'EDMH)
+%%%
+{\large $specialite$}
+\end{center}
+
+\vspace{5mm}
+
+\begin{center}
+{\large\bf $auteur$}
+\end{center}
+
+\vspace{3mm}
+
+\begin{center}
+{\Large $titre$}
+%%%
+%% éventuellement sur deux lignes
+%%%
+\end{center}
+
+
+\vspace{10mm}
+
+\noindent{\small \it Date de soutenance~: } $date$
+
+\vspace{5mm}
+
+\noindent
+{\small \it Après avis des rapporteurs~: }
+\begin{tabular}{l}
+{\sc $rapporteur1$} ($institution_rapporteur1$)\vspace{1mm}  \\
+{\sc $rapporteur2$} ($institution_rapporteur2$)\\
+\end{tabular}
+
+\vspace{8mm}
+
+\noindent
+{\small \it Jury de soutenance~: }
+%%%
+%% par ordre alphabétique des membres
+%%
+%% version avant soutenance à adapter (un jury peut contenir
+%% tout ou partie des rapporteurs, tout au partie des codirecteurs de thèses,
+%% voire des invités). Le président du jury est choisi par le jury en
+%% son sein le jour de la soutenance, et est indiqué sur les exemplaires
+%% post-soutenance
+%% En cas d'absense d'un membre de jury prévu, les exemplaires post-thèse
+%% ne doivent faire figurer que les présents.
+%%%%
+\begin{tabular}{ll}
+{\sc   $jure_1$}&($institution_jure_1$) {\small $role_jure_1$}\vspace{1mm}\\
+{\sc   $jure_2$}&($institution_jure_2$) {\small $role_jure_2$}\vspace{1mm}\\
+{\sc   $jure_3$}&($institution_jure_3$) {\small $role_jure_3$}\vspace{1mm}\\
+{\sc   $jure_4$}&($institution_jure_4$) {\small $role_jure_4$}\vspace{1mm}\\
+{\sc   $jure_5$}&($institution_jure_5$) {\small $role_jure_5$}\vspace{1mm}\\
+{\sc   $jure_6$}&($institution_jure_6$) {\small $role_jure_6$}\vspace{1mm}\\
+\end{tabular}
+% \begin{tabular}{ll}
+% {\sc   Prénom NOM}&(Institution) {\small Rapporteur}\vspace{1mm}\\
+% {\sc   Prénom NOM}&(Institution) {\small Codirecteur de thèse}\vspace{1mm}\\
+% {\sc   Prénom NOM}&(Institution) {\small Examinateur}\vspace{1mm}\\
+% {\sc   Prénom NOM}&(Institution) {\small Examinateur}\vspace{1mm}\\
+% {\sc   Prénom NOM}&(Institution) {\small Codirecteur de thèse}\vspace{1mm}\\
+% {\sc   Prénom NOM}&(Institution) {\small Invité}\vspace{1mm}\\
+% \end{tabular}
+
+
+\vfill
+\noindent
+\hbox{\includegraphics[width=2.2cm]{logos/logo_fmjh.jpg}}
+\hfill
+%%%
+%% logo Etablissement d'accueil, si différent du précédent
+%% (modifier les symboles % en début de lignes
+%% pour obtenir la configuration souhaitée, et ajuster
+%% éventuellement la taille)
+%%%
+$if(logo_accueil)$
+\hbox{\includegraphics[width=$taille_logo_accueil$]{$logo_accueil$}}
+\hfill
+$endif$
+%\hbox{\includegraphics[width=2cm]{logoIHES.jpg}}
+%\hbox{\includegraphics[width=2cm]{logoIHES.jpg}}
+%\hbox{\includegraphics[width=2.1cm]{logoINRA.jpg}}
+%\hbox{\includegraphics[width=2.5cm]{logoAgro.jpg}}
+%\hbox{\includegraphics[width=1.5cm]{logoCEA.jpg}}
+%%%
+%% logo laboratoire(s) d'accueil, s'il existe
+%%%
+\hbox{\includegraphics[width=$taille_logo_labo$]{$logo_labo$}}
+%\hbox{\includegraphics[width=2cm]{logoCMAP.jpg}}
+%\hbox{\includegraphics[width=2.4cm]{logoCMLA.jpg}}
+%\hbox{\includegraphics[width=2cm]{logoCMLS.jpg}}
+%\hbox{\includegraphics[width=4cm]{logoDMA.jpeg}}
+%\hbox{\includegraphics[width=2.2cm]{logoGREHEC.jpg}}
+%\hbox{\includegraphics[width=2.1cm]{logoIPhT.jpeg}}
+%\hbox{\includegraphics[width=2cm]{logoLAG.jpg}}
+%\hbox{\includegraphics[width=1.6cm]{logoLAMME.jpg}}
+%\hbox{\includegraphics[width=3cm]{logoLMO.jpg}}
+%\hbox{\includegraphics[width=3.4cm]{logoLMV.jpeg}}
+%\hbox{\includegraphics[width=2.7cm]{logoMaIAGE.png}}
+%\hbox{\includegraphics[width=2.5cm]{logoSAMOVAR.jpg}}
+%\hbox{\includegraphics[width=2cm]{logoUMA.jpg}}
+\hfill \includegraphics[width=1cm]{logos/pictoParis-Saclay.jpg}
+
+
+
 
 \frontmatter % this stuff will be roman-numbered
 \pagestyle{empty} % this removes page numbers from the frontmatter
@@ -205,8 +383,48 @@ $endif$
 
 $body$
 
+%%%
+%%
+%% Quatrième de couverture (last cover page of the memoirs)
+%%
+%%%
 
-% Index?
+\newpage
+\pagestyle{empty}
+\hbox{\includegraphics[width=8.6cm]{logos/ed_edmh-h.jpg}}
 
+
+\bigskip
+\noindent\fbox{\parbox{\textwidth}{
+{\bf Titre : }  Titre en français
+
+\medskip
+{\bf Mots Clefs : }  Mettre de 3 à 6 mots clefs
+
+\medskip
+{\bf Résumé : }
+
+
+\vspace{7cm}
+
+}}
+
+\bigskip
+\noindent\fbox{\parbox{\textwidth}{
+{\bf Title : }  Title in english
+
+\medskip
+{\bf Keys words : }  3 to 6  key words (in english)
+
+\medskip
+{\bf Abstract : }
+
+
+\vspace{7cm}
+
+}}
+
+\vfill
+\hfill \includegraphics[width=1cm]{logos/pictoParis-Saclay.jpg}
 \end{document}
 
