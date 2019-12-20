@@ -24,15 +24,15 @@
 %% Preamble
 %%
 % \documentclass{<something>} must begin each LaTeX document
-\documentclass[12pt,twoside]{reedthesis}
+\documentclass[a4paper,12pt]{reedthesis}
 % Packages are extensions to the basic LaTeX functions. Whatever you
 % want to typeset, there is probably a package out there for it.
 % Chemistry (chemtex), screenplays, you name it.
 % Check out CTAN to see: http://www.ctan.org/
 %%
 \usepackage{graphicx,latexsym}
-\usepackage{amsmath}
-\usepackage{amssymb,amsthm}
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{fullpage}
 \usepackage{longtable,booktabs,setspace}
 \usepackage{chemarr} %% Useful for one reaction arrow, useless if you're not a chem major
 \usepackage[hyphens]{url}
@@ -43,6 +43,10 @@
 \floatplacement{figure}{H}
 % End of CII addition
 \usepackage{rotating}
+\topmargin=-5mm
+\textwidth=150mm
+\oddsidemargin=0mm
+\textheight=250mm
 
 % Next line commented out by CII
 %%% \usepackage{natbib}
