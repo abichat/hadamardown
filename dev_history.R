@@ -6,7 +6,7 @@ library(usethis)
 
 # use_readme_rmd()
 
-badgecreatr::badge_projectstatus(status = "concept")
+# badgecreatr::badge_projectstatus(status = "concept")
 
 attachment::att_to_description(extra.suggests =
                                  c("devtools", "dplyr", "ggplot2",

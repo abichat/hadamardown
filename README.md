@@ -16,3 +16,7 @@ thesis with R and markdown. It is based of the
 [thesisdown](https://github.com/ismayc/thesisdown) package.
 
 **As of now, it is not finished.**
+
+This is the first page of the pdf output. It must be like [this
+one](https://www.universite-paris-saclay.fr/sites/default/files/pagedegardetheseedmh-mars2017.pdf).
+![alt text](inst/img/output.png "Template")
