@@ -15,7 +15,6 @@ to specify the creation of a webpage version of the thesis.
 }
 \examples{
 \dontrun{
- output: thesisdown::thesis_gitbook
+ output: hadamardown::thesis_gitbook
 }
 }
-

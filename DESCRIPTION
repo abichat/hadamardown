@@ -1,23 +1,33 @@
-Package: thesisdown
-Title: An updated R Markdown thesis template using the bookdown package
-Version: 0.0.2
-Authors@R: c(
-    person("Chester", "Ismay", email = "chester.ismay@gmail.com", role = "cre"),
-    person("Nick", "Solomon", email = "nick@nicksolomon.me", role = "aut"))
-Description: Using the bookdown package and LaTeX and Word thesis templates from
-    Reed College, this package aims to encourage reproducible research using
-    simple Markdown syntax while embedding all of the R code to produce plots
-    and analyses as well.
-Maintainer: Chester Ismay <chester.ismay@gmail.com>
+Package: hadamardown
+Title: RMarkdown template for theses written at Ecole Doctorale
+    de Mathématiques Hadamard
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Antoine",
+             family = "Bichat",
+             role = c("aut", "cre"),
+             email = "a.bichat@yahoo.fr"),
+      person(given = "Chester",
+             family = "Ismay",
+             role = "aut",
+             email = "chester.ismay@gmail.com"),
+      person(given = "Nick",
+             family = "Solomon",
+             role = "aut",
+             email = "nick@nicksolomon.me"))
+Description: Using the bookdown package and LaTeX and Word
+    thesis templates from Reed College, this package aims to encourage
+    reproducible research using simple Markdown syntax while embedding all
+    of the R code to produce plots and analyses as well.
+License: MIT + file LICENSE
 Depends:
-    R (>= 3.2.0),
+    bookdown,
     devtools,
     dplyr,
     ggplot2,
-    bookdown,
-    knitr
-License: MIT
+    knitr,
+    R (>= 3.2.0)
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.0.2
 SystemRequirements: pandoc (>= 1.18) - http://pandoc.org
-RoxygenNote: 6.0.1
