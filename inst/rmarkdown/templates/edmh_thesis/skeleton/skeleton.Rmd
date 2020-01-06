@@ -5,6 +5,7 @@
 auteur: "Prénom NOM"
 date: "Jour Mois Année"
 titre: "Titre de la thèse"
+title: "Title in english"
 ##
 #### Numéro national de thèse ####
 ##
@@ -18,57 +19,111 @@ specialite: Mathématiques appliquées
 ##
 ## Établissement inscrpipteur et logo
 ##
-inscripteur: "Université d'Évry-Val d'Essonne"
-logo_inscripteur: "logos/logoEvry.jpg"
-taille_logo_inscripteur: "2cm"
 # inscripteur: Centrale-Supélec
-# logo_inscripteur:
+# logo_inscripteur: "logos/"
 # taille_logo_inscripteur:
 # inscripteur: Ecole polytechnique
-# logo_inscripteur:
+# logo_inscripteur: "logos/"
 # taille_logo_inscripteur: 
 # inscripteur: Ecole normale supérieure
-# logo_inscripteur:
+# logo_inscripteur: "logos/"
 # taille_logo_inscripteur: 
 # inscripteur: Ecole normale supérieure de Cachan
-# logo_inscripteur:
+# logo_inscripteur: "logos/"
 # taille_logo_inscripteur: 
 # inscripteur: École nationale de la statistique et de l'administration économique
-# logo_inscripteur:
+# logo_inscripteur: "logos/"
 # taille_logo_inscripteur: 
 # inscripteur: École nationale supérieure de techniques avancées
-# logo_inscripteur:
+# logo_inscripteur: "logos/"
 # taille_logo_inscripteur: 
 # inscripteur: Ecole des hautes études commerciales de Paris
-# logo_inscripteur:
+# logo_inscripteur: "logos/"
 # taille_logo_inscripteur: 
 # inscripteur: Telecom SudParis
-# logo_inscripteur:
+# logo_inscripteur: "logos/"
 # taille_logo_inscripteur: 
 # inscripteur: Telecom ParisTech
-# logo_inscripteur:
+# logo_inscripteur: "logos/"
 # taille_logo_inscripteur: 
-# inscripteur: Université d'Evry-Val d'Essonne
-# logo_inscripteur:
-# taille_logo_inscripteur: 
-# inscripteur: Université Paris-Sud
-# logo_inscripteur:
-# taille_logo_inscripteur: 
+# inscripteur: "Université d'Évry-Val d'Essonne"
+# logo_inscripteur: "logos/logoEvry.jpg"
+# taille_logo_inscripteur: "2cm"
+inscripteur: Université Paris-Sud
+logo_inscripteur: "logos/logoupsudsaclayfacsciences"
+taille_logo_inscripteur: "2.7cm"
 # inscripteur: Université de Versailles Saint-Quentin-en-Yvelines
-# logo_inscripteur:
+# logo_inscripteur: "logos/"
 # taille_logo_inscripteur: 
 ##
 #### Établissement d'accueil et logo si différent du précédent ####
 ##
-accueil: "AgroParisTech"
-logo_accueil: "logos/logoAgro.jpg"
-taille_logo_accueil: "2.5cm"
+# accueil: "AgroParisTech"
+# logo_accueil: "logos/logoAgro.jpg"
+# taille_logo_accueil: "2.5cm"
+# accueil: "Commissariat à l'énergie atomique et aux énergies alternatives"
+# logo_accueil: "logos/logo-cea-2017.jpg"
+# taille_logo_accueil: "1.5cm"
+accueil: "Institut des hautes études scientifiques"
+logo_accueil: "logos/logoihes.jpg"
+taille_logo_accueil: "2cm"
+# accueil: "Institut national de la recherche agronomique"
+# logo_accueil: "logos/logoinra.jpg"
+# taille_logo_accueil: "2.1cm"
 ##
 #### Laboratoire d'accueil et logo ####
 ##
-labo: "Laboratoire de mathématiques et modélisation d'Évry, UMR 8071 CNRS-INRA"
-logo_labo: "logos/logoLAMME.jpg"
-taille_logo_labo: "1.6cm"
+# labo: "Centre de mathématiques appliquées de Polytechnique, UMR 7641 CNRS"
+# logo_labo: "logos/"
+# taille_logo_labo: "cm"
+# labo: "Centre de mathématiques et de leurs applications, UMR 8536 CNRS"
+# logo_labo: "logos/"
+# taille_logo_labo: "cm"
+# labo: "Centre de mathématiques Laurent Schwartz, UMR 7640 CNRS"
+# logo_labo: "logos/"
+# taille_logo_labo: "cm"
+# labo: "Département de mathématiques et applications, UMR 8553 CNRS"
+# logo_labo: "logos/"
+# taille_logo_labo: "cm"
+# labo: "ENSAE-X Centre d'économie, statistique et sociologie, UMR 9194 CNRS"
+# logo_labo: "logos/"
+# taille_logo_labo: "cm"
+# labo: "Fédération de Mathématiques, FR 3487 CNRS"
+# logo_labo: "logos/"
+# taille_logo_labo: "cm"
+# labo: "Groupement de recherche et d'études en gestion (GREGHEC), UMR 8071 CNRS"
+# logo_labo: "logos/"
+# taille_logo_labo: "cm"
+# labo: "Institut de physique théorique de Saclay, URA 2306 CNRS"
+# logo_labo: "logos/"
+# taille_logo_labo: "cm"
+labo: "Laboratoire Alexander Grothendieck (ERL 9216 CNRS)"
+logo_labo: "logos/logolag.jpg"
+taille_logo_labo: "2cm"
+# labo: "Laboratoire de mathématiques d'Orsay, UMR 8628 CNRS"
+# logo_labo: "logos/"
+# taille_logo_labo: "cm"
+# labo: "Laboratoire de math\'ematiques de Versailles, UMR 8100 CNRS"
+# logo_labo: "logos/"
+# taille_logo_labo: "cm"
+# labo: "Laboratoire de mathématiques et modélisation d'Évry, UMR 8071 CNRS-INRA"
+# logo_labo: "logos/logoLAMME.jpg"
+# taille_logo_labo: "1.6cm"
+# labo: "Laboratoire traitement et communication de l'information, UMR 5141 CNRS"
+# logo_labo: "logos/"
+# taille_logo_labo: "cm"
+# labo: "Mathématiques et informatique appliquées, UMR 518 INRA"
+# logo_labo: "logos/"
+# taille_logo_labo: "cm"
+# labo: "Mathématiques et informatique appliquées du génome à l'environnement, UR 1404"
+# logo_labo: "logos/"
+# taille_logo_labo: "cm"
+# labo: "Services répartis, architectures, modélisation, validation, administration des réseaux, UMR 5157 CNRS"
+# logo_labo: "logos/"
+# taille_logo_labo: "cm"
+# labo: "Unité de mathématiques appliquées, ENSTA-CNRS-INRIA"
+# logo_labo: "logos/"
+# taille_logo_labo: "cm"
 ##
 #### Rapporteurs ####
 ##
