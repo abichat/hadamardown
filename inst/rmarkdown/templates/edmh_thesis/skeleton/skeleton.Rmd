@@ -59,17 +59,17 @@ taille_logo_inscripteur: "3cm"
 #### Établissement d'accueil et logo si différent du précédent ####
 ##
 # accueil: "AgroParisTech"
-# logo_accueil: "logos/logoAgro.jpg"
-# taille_logo_accueil: "2.5cm"
-# accueil: "Commissariat à l'énergie atomique et aux énergies alternatives"
-# logo_accueil: "logos/logo-cea-2017.jpg"
-# taille_logo_accueil: "1.5cm"
-accueil: "Institut des hautes études scientifiques"
-logo_accueil: "logos/logoihes.jpg"
+# logo_accueil: "logos/agroparistech.jpg"
+# taille_logo_accueil: "4cm"
+# accueil: "Commissariat à l'Énergie Atomique et aux Énergies Alternatives"
+# logo_accueil: "logos/cea.jpg"
+# taille_logo_accueil: "1.8cm"
+accueil: "Institut des Hautes Études Scientifiques"
+logo_accueil: "logos/ihes.jpg"
 taille_logo_accueil: "2cm"
-# accueil: "Institut national de la recherche agronomique"
-# logo_accueil: "logos/logoinra.jpg"
-# taille_logo_accueil: "2.1cm"
+# accueil: "Institut National de la Recherche Agronomique"
+# logo_accueil: "logos/inra.jpg"
+# taille_logo_accueil: "3cm"
 ##
 #### Laboratoire d'accueil et logo ####
 ##
