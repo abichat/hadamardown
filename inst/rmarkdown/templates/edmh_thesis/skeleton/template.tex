@@ -125,9 +125,9 @@ $endfor$
 %%  pour obtenir la configuration souhaitée)
 %%%
 \noindent
-\hspace*{-1cm}\hbox{\includegraphics[width=8.6cm]{logos/ed_edmh-h.jpg}}
+\hspace*{-1cm}\hbox{\includegraphics[width=8cm]{logos/edmh.jpg}}
 \hfill
-\hspace*{-0.4cm}{\small {\bf NNT : $NNT$}}
+\hspace*{-0.4cm}{\small {\bf NNT~: $NNT$}}
 %%%
 %% Numéro National de Thèse, à préciser lors du second dépôt
 %% de la thèse post-soutenance
@@ -168,70 +168,31 @@ $endfor$
 %%%
 %% nom établissement inscripteur
 %%%
-{\small \it Établissement d'inscription : }
-$inscripteur$
+{\small \it Établissement d'inscription~:} $inscripteur$
 
-%    Centrale-Supélec\\
-%    Ecole polytechnique\\
-%    Ecole normale supérieure\\
-%    Ecole normale supérieure de Cachan\\
-%    \'Ecole nationale de la statistique et de l'administration économique\\
-%    \'Ecole nationale supérieure de techniques avancées\\
-%    Ecole des hautes études commerciales de Paris\\
-%    Telecom SudParis\\
-%    Telecom ParisTech\\
-%    Université d'Evry-Val d'Essonne\\
-%    Université Paris-Sud\\
-%   Université de Versailles Saint-Quentin-en-Yvelines\\
  \vspace*{0.2cm}
 %%%
 %% nom établissement(s) d'accueil, si différent du précédent
 %%%
 $if(accueil)$
-{\small \it \'Etablissement d'accueil : }
-$accueil$
+{\small \it Établissement d'accueil~:} $accueil$
 
-%    AgroParisTech\\
-%    Commissariat \`a l'énergie atomique et aux énergies alternatives\\
-    % Institut des hautes études scientifiques\\
-%    Institut national de la recherche agronomique\\
 \vspace*{0.2cm}
 $endif$
 %%%
 %% nom laboratoire(s) d'accueil
 %%%
-{\small \it Laboratoire d'accueil : }
-$labo$
-%  Centre de mathématiques appliquées de Polytechnique, UMR 7641 CNRS\\
-%  Centre de mathématiques et de leurs applications, UMR 8536 CNRS\\
-%  Centre de mathématiques Laurent Schwartz, UMR 7640 CNRS\\
-%  Département de mathématiques et applications, UMR 8553 CNRS\\
-%  ENSAE-X Centre d'économie, statistique et sociologie, UMR 9194 CNRS\\
-%  Fédération de Mathématiques, FR 3487 CNRS\\
-%  Groupement de recherche et d'études en gestion (GREGHEC), UMR 8071 CNRS\\
-%  Institut de physique théorique de Saclay, URA 2306 CNRS\\
-%Laboratoire Alexander Grothendieck (ERL 9216 CNRS)\\
-%  Laboratoire de mathématiques d'Orsay, UMR 8628 CNRS\\
-%  Laboratoire de mathématiques de Versailles, UMR 8100 CNRS\\
-%  Laboratoire de mathématiques et modélisation d'\'Evry, UMR 8071 CNRS-INRA\\
-%  Laboratoire traitement et communication de l'information, UMR 5141 CNRS\\
-%  Mathématiques et informatique appliquées, UMR 518 INRA\\
-%  Mathématiques et informatique appliquées du génome \`a l'environnement, UR 1404
-%  Services répartis, architectures, modélisation, validation, administration des réseaux, UMR 5157 CNRS\\
-%  Unité de mathématiques appliquées, ENSTA-CNRS-INRIA\\
+{\small \it Laboratoire d'accueil~:} $labo$
+
 \vspace*{0.2cm}
 \end{center}
 
 
-
-
 \begin{center}
-{\it Spécialité de doctorat : }
 %%%
-%%  Choisir l'une des trois spécialités suivantes (soumis à
-%%  accord du comité de direction de l'EDMH)
+%%  Spécialité
 %%%
-{\large $specialite$}
+{\it Spécialité de doctorat~:} {\large $specialite$}
 \end{center}
 
 \vspace{5mm}
@@ -252,12 +213,12 @@ $labo$
 
 \vspace{10mm}
 
-\noindent{\small \it Date de soutenance~: } $date$
+\noindent{\small \it Date de soutenance~:} $date$
 
 \vspace{5mm}
 
 \noindent
-{\small \it Après avis des rapporteurs~: }
+{\small \it Après avis des rapporteurs~:}
 \begin{tabular}{l}
 {\sc $rapporteur1$} ($institution_rapporteur1$)\vspace{1mm}  \\
 {\sc $rapporteur2$} ($institution_rapporteur2$)\\
@@ -266,7 +227,7 @@ $labo$
 \vspace{8mm}
 
 \noindent
-{\small \it Jury de soutenance~: }
+{\small \it Jury de soutenance~:}
 %%%
 %% par ordre alphabétique des membres
 %%
@@ -391,7 +352,7 @@ $body$
 
 \newpage
 \pagestyle{empty}
-\hbox{\includegraphics[width=8.6cm]{logos/ed_edmh-h.jpg}}
+\hbox{\includegraphics[width=8.6cm]{logos/edmh.jpg}}
 
 
 \bigskip

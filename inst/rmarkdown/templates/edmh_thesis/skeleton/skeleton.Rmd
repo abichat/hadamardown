@@ -9,7 +9,7 @@ title: "Title in english"
 ##
 #### Numéro national de thèse ####
 ##
-NNT: '2019SACLY000'
+NNT: "2020SACLY000"
 ##
 #### Spécialité ####
 ##
@@ -20,41 +20,41 @@ specialite: Mathématiques appliquées
 ## Établissement inscrpipteur et logo
 ##
 # inscripteur: Centrale-Supélec
-# logo_inscripteur: "logos/"
-# taille_logo_inscripteur:
-# inscripteur: Ecole polytechnique
-# logo_inscripteur: "logos/"
-# taille_logo_inscripteur: 
-# inscripteur: Ecole normale supérieure
-# logo_inscripteur: "logos/"
-# taille_logo_inscripteur: 
-# inscripteur: Ecole normale supérieure de Cachan
-# logo_inscripteur: "logos/"
-# taille_logo_inscripteur: 
-# inscripteur: École nationale de la statistique et de l'administration économique
-# logo_inscripteur: "logos/"
-# taille_logo_inscripteur: 
-# inscripteur: École nationale supérieure de techniques avancées
-# logo_inscripteur: "logos/"
-# taille_logo_inscripteur: 
-# inscripteur: Ecole des hautes études commerciales de Paris
-# logo_inscripteur: "logos/"
-# taille_logo_inscripteur: 
-# inscripteur: Telecom SudParis
-# logo_inscripteur: "logos/"
-# taille_logo_inscripteur: 
-# inscripteur: Telecom ParisTech
-# logo_inscripteur: "logos/"
-# taille_logo_inscripteur: 
+# logo_inscripteur: "logos/centralesupelec.jpg"
+# taille_logo_inscripteur: "3cm"
+# inscripteur: École Polytechnique
+# logo_inscripteur: "logos/ecolepolytechnique.jpg"
+# taille_logo_inscripteur: "1.2cm"
+# inscripteur: École Nationale de la Statistique et de l'Administration Économique
+# logo_inscripteur: "logos/ensae.jpg"
+# taille_logo_inscripteur: "2cm"
+# inscripteur: École Normale Supérieure Paris-Saclay
+# logo_inscripteur: "logos/ensparissaclay.jpg"
+# taille_logo_inscripteur: "3cm"
+# inscripteur: École Normale Supérieure
+# logo_inscripteur: "logos/ensulm.jpg"
+# taille_logo_inscripteur: "1.6cm"
+# inscripteur: École Nationale Supérieure de Techniques Avancées
+# logo_inscripteur: "logos/ensta.jpg"
+# taille_logo_inscripteur: "1.4cm"
+# inscripteur: École des Hautes Études Commerciales de Paris
+# logo_inscripteur: "logos/hec.jpg"
+# taille_logo_inscripteur: "2.8cm"
+# inscripteur: Télécom SudParis
+# logo_inscripteur: "logos/telecomsudparis.jpg"
+# taille_logo_inscripteur: "2cm"
+# inscripteur: Télécom Paris
+# logo_inscripteur: "logos/telecomparis.jpg"
+# taille_logo_inscripteur: "1.2cm"
 # inscripteur: "Université d'Évry-Val d'Essonne"
-# logo_inscripteur: "logos/logoEvry.jpg"
+# logo_inscripteur: "logos/ueve.jpg"
 # taille_logo_inscripteur: "2cm"
 inscripteur: Université Paris-Sud
-logo_inscripteur: "logos/logoupsudsaclayfacsciences"
-taille_logo_inscripteur: "2.7cm"
+logo_inscripteur: "logos/upsud.jpg"
+taille_logo_inscripteur: "3cm"
 # inscripteur: Université de Versailles Saint-Quentin-en-Yvelines
-# logo_inscripteur: "logos/"
-# taille_logo_inscripteur: 
+# logo_inscripteur: "logos/uvsq.jpg"
+# taille_logo_inscripteur: "3cm"
 ##
 #### Établissement d'accueil et logo si différent du précédent ####
 ##
