@@ -155,7 +155,20 @@ role_jure_6: "Invité"
 ######################################
 #### Quatrième de couverture EDMH ####
 ######################################
-
+#### Les titres ont été définis dans la partie page de garde ####
+##
+#### Mots-clefs ####
+##
+motsclefs: "Mettre de 3 à 6 mots clefs"
+keywords: "3 to 6 key words"
+##
+#### Résumé ####
+##
+resume: "Réumé en français"
+abstract_bc: "Abstract in english"
+################
+#### Autres ####
+################
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 output: 
