@@ -17,7 +17,7 @@ specialite: Mathématiques fondamentales
 # specialite: Mathématiques appliquées
 # specialite: Mathématiques aux interfaces
 ##
-## Établissmeent de regroupement et logos
+#### Établissement de regroupement et logos ####
 ##
 regroupement: "Université Paris-Saclay"
 logo_regroupement_edmh: "logos/edmhsaclay.jpg"
@@ -29,7 +29,7 @@ taille_logo_regroupement: "1cm"
 # taille_logo_regroupement_edmh: "8cm"
 ## pas de logo_regroupement pour IPP
 ##
-## Établissement inscrpipteur et logo
+#### Établissement inscripteur et logo ####
 ##
 # inscripteur: Centrale-Supélec
 # logo_inscripteur: "logos/centralesupelec.jpg"
