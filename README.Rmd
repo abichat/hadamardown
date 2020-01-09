@@ -16,13 +16,23 @@ knitr::opts_chunk$set(
 # hadamardown
 
 <!-- badges: start -->
-[![Project Status: Concept – Minimal or no implementation has been done yet, or the repository is only intended to be a limited example, demo, or proof-of-concept.](https://www.repostatus.org/badges/latest/concept.svg)](https://www.repostatus.org/#concept)
+[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 <!-- badges: end -->
 
-The **hadamardown** package provides a handy template for writing a thesis with R and markdown. It is based of the [thesisdown](https://github.com/ismayc/thesisdown) package.
+The **hadamardown** package provides a handy template for writing a thesis for **Ecole doctorale de mathématiques Hadamard** with R and markdown. It is based of the [thesisdown](https://github.com/ismayc/thesisdown) package.
 
-**As of now, it is not finished.**
+**As of now, documentation is not finished.**
 
-This is the first page of the pdf output. It must be like [this one](https://www.universite-paris-saclay.fr/sites/default/files/pagedegardetheseedmh-mars2017.pdf).
-![alt text](inst/img/output.png "Template")
 
+Example for **Université Paris-Saclay**:
+
+<img src="inst/img/output_saclay_1.jpg" width="400"/>
+<img src="inst/img/output_saclay_2.jpg" width="400"/>
+
+Example for **Institut Polytechnique de Paris**:
+
+<img src="inst/img/output_ipp_1.jpg" width="400"/>
+<img src="inst/img/output_ipp_2.jpg" width="400"/>
+
+
+EDMH templates are available [here](https://www.universite-paris-saclay.fr/fr/formation/doctorat/ecole-doctorale-de-mathematiques-hadamard-edmh#page-de-garde-des-theses-de-l-edmh).
