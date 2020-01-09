@@ -34,30 +34,30 @@ taille_logo_regroupement: "1cm"
 # inscripteur: Centrale-Supélec
 # logo_inscripteur: "logos/centralesupelec.jpg"
 # taille_logo_inscripteur: "3cm"
+# inscripteur: École des Hautes Études Commerciales de Paris
+# logo_inscripteur: "logos/hec.jpg"
+# taille_logo_inscripteur: "2.8cm"
 # inscripteur: École Polytechnique
 # logo_inscripteur: "logos/polytechnique.jpg"
 # taille_logo_inscripteur: "1.2cm"
 # inscripteur: École Nationale de la Statistique et de l'Administration Économique
 # logo_inscripteur: "logos/ensae.jpg"
 # taille_logo_inscripteur: "2.3cm"
+# inscripteur: École Nationale Supérieure de Techniques Avancées
+# logo_inscripteur: "logos/ensta.jpg"
+# taille_logo_inscripteur: "1.4cm"
 # inscripteur: École Normale Supérieure Paris-Saclay
 # logo_inscripteur: "logos/ensparissaclay.jpg"
 # taille_logo_inscripteur: "3cm"
 # inscripteur: École Normale Supérieure
 # logo_inscripteur: "logos/ensulm.jpg"
 # taille_logo_inscripteur: "1.6cm"
-# inscripteur: École Nationale Supérieure de Techniques Avancées
-# logo_inscripteur: "logos/ensta.jpg"
-# taille_logo_inscripteur: "1.4cm"
-# inscripteur: École des Hautes Études Commerciales de Paris
-# logo_inscripteur: "logos/hec.jpg"
-# taille_logo_inscripteur: "2.8cm"
-# inscripteur: Télécom SudParis
-# logo_inscripteur: "logos/telecomsudparis.jpg"
-# taille_logo_inscripteur: "2cm"
 # inscripteur: Télécom Paris
 # logo_inscripteur: "logos/telecomparis.jpg"
 # taille_logo_inscripteur: "1.2cm"
+# inscripteur: Télécom SudParis
+# logo_inscripteur: "logos/telecomsudparis.jpg"
+# taille_logo_inscripteur: "2cm"
 # inscripteur: "Université d'Évry-Val d'Essonne"
 # logo_inscripteur: "logos/ueve.jpg"
 # taille_logo_inscripteur: "2cm"
@@ -91,7 +91,7 @@ taille_logo_accueil: "2cm"
 # labo: "Centre de Mathématiques et de leurs Applications, UMR 8536 CNRS"
 # logo_labo: "logos/cmla.jpg"
 # taille_logo_labo: "2cm"
-# labo: "Centre de mathématiques Laurent Schwartz, UMR 7640 CNRS"
+# labo: "Centre de Mathématiques Laurent Schwartz, UMR 7640 CNRS"
 # logo_labo: "logos/cmls.jpg"
 # taille_logo_labo: "1.8cm"
 # labo: "Centre de Recherche en Économie et Statistique, UMR 9194 CNRS"
