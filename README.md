@@ -17,15 +17,19 @@ markdown. It is based of the
 
 **As of now, documentation is not finished.**
 
-Example for **Université Paris-Saclay**:
+Example for **Université
+Paris-Saclay**:
 
-<img src="inst/img/output_saclay_1.jpg" width="400"/>
-<img src="inst/img/output_saclay_2.jpg" width="400"/>
+|                Front page                 |                Back cover                 |
+| :---------------------------------------: | :---------------------------------------: |
+| <img src="inst/img/output_saclay_1.jpg"/> | <img src="inst/img/output_saclay_2.jpg"/> |
 
-Example for **Institut Polytechnique de Paris**:
+Example for **Institut Polytechnique de
+Paris**:
 
-<img src="inst/img/output_ipp_1.jpg" width="400"/>
-<img src="inst/img/output_ipp_2.jpg" width="400"/>
+|               Front page               |               Back cover               |
+| :------------------------------------: | :------------------------------------: |
+| <img src="inst/img/output_ipp_1.jpg"/> | <img src="inst/img/output_ipp_2.jpg"/> |
 
 EDMH templates are available
 [here](https://www.universite-paris-saclay.fr/fr/formation/doctorat/ecole-doctorale-de-mathematiques-hadamard-edmh#page-de-garde-des-theses-de-l-edmh).
