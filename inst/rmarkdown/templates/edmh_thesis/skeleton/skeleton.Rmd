@@ -46,12 +46,12 @@ taille_logo_regroupement: "1cm"
 # inscripteur: École Nationale Supérieure de Techniques Avancées
 # logo_inscripteur: "logos/ensta.jpg"
 # taille_logo_inscripteur: "1.4cm"
-# inscripteur: École Normale Supérieure Paris-Saclay
-# logo_inscripteur: "logos/ensparissaclay.jpg"
-# taille_logo_inscripteur: "3cm"
 # inscripteur: École Normale Supérieure
 # logo_inscripteur: "logos/ensulm.jpg"
 # taille_logo_inscripteur: "1.6cm"
+# inscripteur: École Normale Supérieure Paris-Saclay
+# logo_inscripteur: "logos/ensparissaclay.jpg"
+# taille_logo_inscripteur: "3cm"
 # inscripteur: Télécom Paris
 # logo_inscripteur: "logos/telecomparis.jpg"
 # taille_logo_inscripteur: "1.2cm"

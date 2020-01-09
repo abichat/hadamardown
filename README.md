@@ -52,10 +52,10 @@ These entities are available by default with their logo:
         Économique](inst/rmarkdown/templates/edmh_thesis/skeleton/logos/ensae.jpg)
       - [École Nationale Supérieure de Techniques
         Avancées](inst/rmarkdown/templates/edmh_thesis/skeleton/logos/ensta.jpg)
-      - [École Normale Supérieure
-        Paris-Saclay](inst/rmarkdown/templates/edmh_thesis/skeleton/logos/ensparissaclay.jpg)
       - [École Normale
         Supérieure](inst/rmarkdown/templates/edmh_thesis/skeleton/logos/ensulm.jpg)
+      - [École Normale Supérieure
+        Paris-Saclay](inst/rmarkdown/templates/edmh_thesis/skeleton/logos/ensparissaclay.jpg)
       - [Télécom
         Paris](inst/rmarkdown/templates/edmh_thesis/skeleton/logos/telecomparis.jpg)
       - [Télécom
