@@ -13,8 +13,8 @@ NNT: "2020SACLY000"
 ##
 #### Spécialité ####
 ##
-# specialite: Mathématiques fondamentales
-specialite: Mathématiques appliquées
+specialite: Mathématiques fondamentales
+# specialite: Mathématiques appliquées
 # specialite: Mathématiques aux interfaces
 ##
 ## Établissmeent de regroupement et logos
@@ -39,7 +39,7 @@ taille_logo_regroupement: "1cm"
 # taille_logo_inscripteur: "1.2cm"
 # inscripteur: École Nationale de la Statistique et de l'Administration Économique
 # logo_inscripteur: "logos/ensae.jpg"
-# taille_logo_inscripteur: "2cm"
+# taille_logo_inscripteur: "2.3cm"
 # inscripteur: École Normale Supérieure Paris-Saclay
 # logo_inscripteur: "logos/ensparissaclay.jpg"
 # taille_logo_inscripteur: "3cm"
@@ -94,6 +94,9 @@ taille_logo_accueil: "2cm"
 # labo: "Centre de mathématiques Laurent Schwartz, UMR 7640 CNRS"
 # logo_labo: "logos/cmls.jpg"
 # taille_logo_labo: "1.8cm"
+# labo: "Centre de Recherche en Économie et Statistique, UMR 9194"
+# logo_labo: "logos/crest.jpg"
+# taille_logo_labo: "2.4cm"
 # labo: "Département de Mathématiques et Applications, UMR 8553 CNRS"
 # logo_labo: "logos/dma.jpg"
 # taille_logo_labo: "7cm"

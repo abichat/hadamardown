@@ -126,32 +126,20 @@ $endfor$
 %%%
 \noindent
 \hspace*{-1cm}\hbox{\includegraphics[width=$taille_logo_regroupement_edmh$]{$logo_regroupement_edmh$}}
-\hfill
-\hspace*{-0.4cm}{\small {\bf NNT~: $NNT$}}
 %%%
 %% Numéro National de Thèse, à préciser lors du second dépôt
 %% de la thèse post-soutenance
 %%%
 \hfill
+\hspace*{-0.4cm}{\small {\bf NNT~: $NNT$}}
 %%%
-%% logo Etablissement inscripteur
-%% (modifier les symboles % en début de lignes
-%% pour obtenir la configuration souhaitée, et ajuster
-%% éventuellement la taille) En cas de cotutelle internationale,
+%% logo établissement inscripteur
+%% En cas de cotutelle internationale,
 %% mettre à la place le logo de l'université étrangère et rajouter
 %% en bas de page le logo de l'établissement inscripteur
 %%%
-%\hbox{\includegraphics[width=2.3cm]{logoCentraleSupelec.jpg}}
-%\hbox{\includegraphics[width=2cm]{logoHEC.jpg}}
-%\hbox{\includegraphics[width=2cm]{logoENSAE.jpg}}
-%\hbox{\includegraphics[width=2cm]{logoENSCachan.jpg}}
-%\hbox{\includegraphics[width=1.5cm]{logoENS.jpg}}
-%\hbox{\includegraphics[width=1.9cm]{logoENSTA.jpg}}
-%\hbox{\includegraphics[width=2.7cm]{logoUPSud_UPSaclay.jpg}}
-%\hbox{\includegraphics[width=2cm]{logoTelecom.jpg}}
+\hfill
 \hbox{\includegraphics[width=$taille_logo_inscripteur$]{$logo_inscripteur$}}
-%\hbox{\includegraphics[width=2.2cm]{logoUVSQ.jpg}}
-%\hbox{\includegraphics[width=2.5cm]{logoX.jpg}}
 \vspace{7mm}
 
 \begin{center}
@@ -247,57 +235,35 @@ $endif$
 {\sc   $jure_5$}&($institution_jure_5$) {\small $role_jure_5$}\vspace{1mm}\\
 {\sc   $jure_6$}&($institution_jure_6$) {\small $role_jure_6$}\vspace{1mm}\\
 \end{tabular}
-% \begin{tabular}{ll}
-% {\sc   Prénom NOM}&(Institution) {\small Rapporteur}\vspace{1mm}\\
-% {\sc   Prénom NOM}&(Institution) {\small Codirecteur de thèse}\vspace{1mm}\\
-% {\sc   Prénom NOM}&(Institution) {\small Examinateur}\vspace{1mm}\\
-% {\sc   Prénom NOM}&(Institution) {\small Examinateur}\vspace{1mm}\\
-% {\sc   Prénom NOM}&(Institution) {\small Codirecteur de thèse}\vspace{1mm}\\
-% {\sc   Prénom NOM}&(Institution) {\small Invité}\vspace{1mm}\\
-% \end{tabular}
 
 
 \vfill
 \noindent
-\hbox{\includegraphics[width=2.2cm]{logos/fmjh.jpg}}
 \hfill
+\hbox{\includegraphics[width=2.2cm]{logos/fmjh.jpg}}
 %%%
-%% logo Etablissement d'accueil, si différent du précédent
-%% (modifier les symboles % en début de lignes
-%% pour obtenir la configuration souhaitée, et ajuster
-%% éventuellement la taille)
+%% logo établissement d'accueil, si différent du précédent, s'il existe
 %%%
 $if(logo_accueil)$
+\hfill\hfill\hfill\hfill
 \hbox{\includegraphics[width=$taille_logo_accueil$]{$logo_accueil$}}
-\hfill
 $endif$
-%\hbox{\includegraphics[width=2cm]{logoIHES.jpg}}
-%\hbox{\includegraphics[width=2cm]{logoIHES.jpg}}
-%\hbox{\includegraphics[width=2.1cm]{logoINRA.jpg}}
-%\hbox{\includegraphics[width=2.5cm]{logoAgro.jpg}}
-%\hbox{\includegraphics[width=1.5cm]{logoCEA.jpg}}
 %%%
-%% logo laboratoire(s) d'accueil, s'il existe
+%% logo laboratoire d'accueil, s'il existe
 %%%
+$if(logo_labo)$
+\hfill\hfill\hfill\hfill
 \hbox{\includegraphics[width=$taille_logo_labo$]{$logo_labo$}}
-%\hbox{\includegraphics[width=2cm]{logoCMAP.jpg}}
-%\hbox{\includegraphics[width=2.4cm]{logoCMLA.jpg}}
-%\hbox{\includegraphics[width=2cm]{logoCMLS.jpg}}
-%\hbox{\includegraphics[width=4cm]{logoDMA.jpeg}}
-%\hbox{\includegraphics[width=2.2cm]{logoGREHEC.jpg}}
-%\hbox{\includegraphics[width=2.1cm]{logoIPhT.jpeg}}
-%\hbox{\includegraphics[width=2cm]{logoLAG.jpg}}
-%\hbox{\includegraphics[width=1.6cm]{logoLAMME.jpg}}
-%\hbox{\includegraphics[width=3cm]{logoLMO.jpg}}
-%\hbox{\includegraphics[width=3.4cm]{logoLMV.jpeg}}
-%\hbox{\includegraphics[width=2.7cm]{logoMaIAGE.png}}
-%\hbox{\includegraphics[width=2.5cm]{logoSAMOVAR.jpg}}
-%\hbox{\includegraphics[width=2cm]{logoUMA.jpg}}
+$endif$
+%%%
+%% logo établissement de regroupement, s'il existe
+%%%
 $if(logo_regroupement)$
-\hfill
+\hfill\hfill\hfill\hfill
 \includegraphics[width=$taille_logo_regroupement$]{$logo_regroupement$}
 $endif$
-
+\hfill
+\
 
 
 \frontmatter % this stuff will be roman-numbered
