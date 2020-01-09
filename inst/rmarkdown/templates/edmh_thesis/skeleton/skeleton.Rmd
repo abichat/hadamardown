@@ -94,21 +94,18 @@ taille_logo_accueil: "2cm"
 # labo: "Centre de mathématiques Laurent Schwartz, UMR 7640 CNRS"
 # logo_labo: "logos/cmls.jpg"
 # taille_logo_labo: "1.8cm"
-# labo: "Centre de Recherche en Économie et Statistique, UMR 9194"
+# labo: "Centre de Recherche en Économie et Statistique, UMR 9194 CNRS"
 # logo_labo: "logos/crest.jpg"
 # taille_logo_labo: "2.4cm"
 # labo: "Département de Mathématiques et Applications, UMR 8553 CNRS"
 # logo_labo: "logos/dma.jpg"
 # taille_logo_labo: "7cm"
-# labo: "ENSAE-X Centre d'Économie, Statistique et Sociologie, UMR 9194 CNRS"
-# logo_labo: "logos/"
-# taille_logo_labo: "cm"
 # labo: "Fédération de Mathématiques, FR 3487 CNRS"
-# logo_labo: "logos/"
-# taille_logo_labo: "cm"
+# logo_labo: "logos/fdm.jpg"
+# taille_logo_labo: "3cm"
 # labo: "Groupement de Recherche et d'Études en Gestion (GREGHEC), UMR 8071 CNRS"
-# logo_labo: "logos/"
-# taille_logo_labo: "cm"
+# logo_labo: "logos/greghec.jpg"
+# taille_logo_labo: "6cm"
 # labo: "Institut de Physique Théorique de Saclay, URA 2306 CNRS"
 # logo_labo: "logos/ipht.jpg"
 # taille_logo_labo: "2cm"
@@ -127,18 +124,18 @@ taille_logo_labo: "2cm"
 # labo: "Laboratoire Traitement et Communication de l'Information, UMR 5141 CNRS"
 # logo_labo: "logos/ltci.jpg"
 # taille_logo_labo: "2.7cm"
-# labo: "Mathématiques et Informatique Appliquées, UMR 518 INRA"
-# logo_labo: "logos/"
-# taille_logo_labo: "cm"
 # labo: "Mathématiques et Informatique Appliquées du Génome à l'Environnement, UR 1404"
 # logo_labo: "logos/maiage.jpg"
 # taille_logo_labo: "3cm"
+# labo: "Mathématiques et Informatique Appliquées, UMR 518 INRA"
+# logo_labo: "logos/mia.jpg"
+# taille_logo_labo: "5.5cm"
 # labo: "Services Répartis, Architectures, Modélisation, Validation, Administration des Réseaux, UMR 5157 CNRS"
 # logo_labo: "logos/samovar.jpg"
 # taille_logo_labo: "3.3cm"
 # labo: "Unité de Mathématiques Appliquées, ENSTA-CNRS-INRIA"
-# logo_labo: "logos/"
-# taille_logo_labo: "cm"
+# logo_labo: "logos/uma.jpg"
+# taille_logo_labo: "2.5cm"
 ##
 #### Rapporteurs ####
 ##
@@ -211,7 +208,7 @@ bibliography: bib/thesis.bib
 csl: csl/apa.csl
 lot: true
 lof: true
-# If you prefer blank lines between paragraphs, un-silence lines  40-41 (this requires package tikz)
+# If you prefer blank lines between paragraphs, un-silence these two lines (this requires package tikz)
 #header-includes:
 #- \usepackage{tikz}
 ---
