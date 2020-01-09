@@ -17,6 +17,18 @@ NNT: "2020SACLY000"
 specialite: Mathématiques appliquées
 # specialite: Mathématiques aux interfaces
 ##
+## Établissmeent de regroupement et logos
+##
+regroupement: "Université Paris-Saclay"
+logo_regroupement_edmh: "logos/edmhsaclay.jpg"
+taille_logo_regroupement_edmh: "8cm"
+logo_regroupement: "logos/saclay.jpg"
+taille_logo_regroupement: "1cm"
+# regroupement: "Institut Polytechnique de Paris"
+# logo_regroupement_edmh: "logos/edmhipp.jpg"
+# taille_logo_regroupement_edmh: "8cm"
+## pas de logo_regroupement pour IPP
+##
 ## Établissement inscrpipteur et logo
 ##
 # inscripteur: Centrale-Supélec
@@ -46,12 +58,12 @@ specialite: Mathématiques appliquées
 # inscripteur: Télécom Paris
 # logo_inscripteur: "logos/telecomparis.jpg"
 # taille_logo_inscripteur: "1.2cm"
-inscripteur: "Université d'Évry-Val d'Essonne"
-logo_inscripteur: "logos/ueve.jpg"
-taille_logo_inscripteur: "2cm"
-# inscripteur: Université Paris-Sud
-# logo_inscripteur: "logos/upsud.jpg"
-# taille_logo_inscripteur: "3cm"
+# inscripteur: "Université d'Évry-Val d'Essonne"
+# logo_inscripteur: "logos/ueve.jpg"
+# taille_logo_inscripteur: "2cm"
+inscripteur: Université Paris-Sud
+logo_inscripteur: "logos/upsud.jpg"
+taille_logo_inscripteur: "3cm"
 # inscripteur: Université de Versailles Saint-Quentin-en-Yvelines
 # logo_inscripteur: "logos/uvsq.jpg"
 # taille_logo_inscripteur: "3cm"

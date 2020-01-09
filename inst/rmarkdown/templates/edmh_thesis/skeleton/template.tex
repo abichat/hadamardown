@@ -125,7 +125,7 @@ $endfor$
 %%  pour obtenir la configuration souhaitée)
 %%%
 \noindent
-\hspace*{-1cm}\hbox{\includegraphics[width=8cm]{logos/edmhsaclay.jpg}}
+\hspace*{-1cm}\hbox{\includegraphics[width=$taille_logo_regroupement_edmh$]{$logo_regroupement_edmh$}}
 \hfill
 \hspace*{-0.4cm}{\small {\bf NNT~: $NNT$}}
 %%%
@@ -161,7 +161,7 @@ $endfor$
 {de }
 \end{center}
 \begin{center}
- {\Large\sc l'Université Paris-Saclay}\\
+ {\Large\sc l'$regroupement$}\\
   \vspace*{0.4cm}
 École doctorale de mathématiques Hadamard (EDMH, ED 574)\\
  \vspace*{0.4cm}
@@ -293,9 +293,10 @@ $endif$
 %\hbox{\includegraphics[width=2.7cm]{logoMaIAGE.png}}
 %\hbox{\includegraphics[width=2.5cm]{logoSAMOVAR.jpg}}
 %\hbox{\includegraphics[width=2cm]{logoUMA.jpg}}
+$if(logo_regroupement)$
 \hfill
-\includegraphics[width=1cm]{logos/saclay.jpg}
-
+\includegraphics[width=$taille_logo_regroupement$]{$logo_regroupement$}
+$endif$
 
 
 
@@ -353,7 +354,7 @@ $body$
 
 \newpage
 \pagestyle{empty}
-\hbox{\includegraphics[width=8.6cm]{logos/edmhsaclay.jpg}}
+\hbox{\includegraphics[width=$taille_logo_regroupement_edmh$]{$logo_regroupement_edmh$}}
 
 
 \bigskip
@@ -387,6 +388,9 @@ $body$
 }}
 
 \vfill
-\hfill \includegraphics[width=1cm]{logos/saclay.jpg}
+$if(logo_regroupement)$
+\hfill
+\includegraphics[width=$taille_logo_regroupement$]{$logo_regroupement$}
+$endif$
 \end{document}
 
