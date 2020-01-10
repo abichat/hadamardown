@@ -22,7 +22,7 @@ Description: Using the bookdown package and LaTeX and Word
 License: MIT + file LICENSE
 Depends:
     R (>= 3.2.0)
-Suggests: 
+Imports: 
     bookdown,
     devtools,
     dplyr,

@@ -8,15 +8,16 @@ library(usethis)
 
 # badgecreatr::badge_projectstatus(status = "concept")
 
-attachment::att_to_description(extra.suggests =
-                                 c("devtools", "dplyr", "ggplot2",
-                                   "knitr", "bookdown", "thesisdown"))
+# use_r("namespace")
+
+attachment::att_to_description()
+
 use_tidy_description()
 
 document()
 
 check()
-goodpractice::gp()
+# goodpractice::gp()
 
 rmarkdown::render("README.Rmd")
 file.remove("README.html")
