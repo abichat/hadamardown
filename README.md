@@ -8,7 +8,7 @@
 [![Project Status: WIP – Initial development is in progress, but there
 has not yet been a stable, usable release suitable for the
 public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
-[![packageversion](https://img.shields.io/badge/package%20version-0.0.0.9000-orange.svg)](commits/master)
+[![packageversion](https://img.shields.io/badge/package%20version-0.0.1-orange.svg)](commits/master)
 [![Travis build
 status](https://travis-ci.org/abichat/hadamardown.svg?branch=master)](https://travis-ci.org/abichat/hadamardown)
 <!-- badges: end -->
@@ -26,7 +26,7 @@ You can install **hadamardown** from GitHub with:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("abichat/yatah")
+remotes::install_github("abichat/hadamardown")
 ```
 
 ## Examples

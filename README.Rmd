@@ -35,7 +35,7 @@ You can install **hadamardown** from GitHub with:
 
 ```{r installation, eval=FALSE}
 # install.packages("remotes")
-remotes::install_github("abichat/yatah")
+remotes::install_github("abichat/hadamardown")
 ```
 
 
