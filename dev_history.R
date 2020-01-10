@@ -12,6 +12,8 @@ library(usethis)
 
 # use_github_links()
 
+# use_travis()
+
 attachment::att_to_description()
 
 use_tidy_description()

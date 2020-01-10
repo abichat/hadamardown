@@ -8,6 +8,7 @@
 [![Project Status: WIP – Initial development is in progress, but there
 has not yet been a stable, usable release suitable for the
 public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+[![packageversion](https://img.shields.io/badge/package%20version-0.0.0.9000-orange.svg)](commits/master)
 [![Travis build
 status](https://travis-ci.org/abichat/hadamardown.svg?branch=master)](https://travis-ci.org/abichat/hadamardown)
 <!-- badges: end -->
@@ -18,6 +19,17 @@ It is based on the [thesisdown](https://github.com/ismayc/thesisdown)
 package.
 
 **As of now, documentation is not finished.**
+
+## Installation
+
+You can install **hadamardown** from GitHub with:
+
+``` r
+# install.packages("remotes")
+remotes::install_github("abichat/yatah")
+```
+
+## Examples
 
 Example for **Université
 Paris-Saclay**:
@@ -35,6 +47,15 @@ Paris**:
 
 Official EDMH templates are provided
 [here](https://www.universite-paris-saclay.fr/fr/formation/doctorat/ecole-doctorale-de-mathematiques-hadamard-edmh#page-de-garde-des-theses-de-l-edmh).
+
+## Documentation
+
+You can find general documentation for
+[bookdown](https://bookdown.org/yihui/bookdown/) or
+[thesisdown](https://github.com/ismayc/thesisdown) on their respective
+pages.
+
+### Hadamardown specificity
 
 These entities are available by default with their logo:
 
