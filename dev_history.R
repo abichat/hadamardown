@@ -10,6 +10,8 @@ library(usethis)
 
 # use_r("namespace")
 
+# use_github_links()
+
 attachment::att_to_description()
 
 use_tidy_description()
