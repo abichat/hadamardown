@@ -10,10 +10,10 @@ has not yet been a stable, usable release suitable for the
 public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 <!-- badges: end -->
 
-The **hadamardown** package provides a handy template for writing a
-thesis for **Ecole doctorale de mathématiques Hadamard** with R and
-markdown. It is based of the
-[thesisdown](https://github.com/ismayc/thesisdown) package.
+The **hadamardown** package provides a handy template to write thesis
+for **Ecole Doctorale de Mathématiques Hadamard** with R and markdown.
+It is based on the [thesisdown](https://github.com/ismayc/thesisdown)
+package.
 
 **As of now, documentation is not finished.**
 

@@ -16,9 +16,10 @@ use_tidy_description()
 document()
 
 check()
+goodpractice::gp()
 
 rmarkdown::render("README.Rmd")
 file.remove("README.html")
 
-
+install()
 
