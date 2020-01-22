@@ -12,10 +12,10 @@ status](https://travis-ci.org/abichat/hadamardown.svg?branch=master)](https://tr
 ![Last-changedate](https://img.shields.io/badge/last%20change-2020--01--22-yellowgreen.svg)
 <!-- badges: end -->
 
-The **hadamardown** package provides a handy template to write thesis
-for **Ecole Doctorale de Mathématiques Hadamard** with R and markdown.
-It is based on the [thesisdown](https://github.com/ismayc/thesisdown)
-package.
+The **hadamardown** package provides a handy template to write a PhD
+thesis for **Ecole Doctorale de Mathématiques Hadamard** with R and
+markdown. It is based on the
+[thesisdown](https://github.com/ismayc/thesisdown) package.
 
 ## Installation
 
@@ -71,16 +71,15 @@ according to EDMH standards:
   - author,
   - date (of defense),
   - title (in French and English),
-  - thesis national number thesis (after the defense, for the second
-    deposit),
+  - national number thesis (after the defense, for the second deposit),
   - speciality,
   - grouping institution with logo (Saclay or IPP),
   - registration institution with logo,
   - host institution with logo (if different from above),
   - host laboratory with logo,
   - rapporteurs,
-  - jujors by alphabetical order (after the defense only presents must
-    be cited and the president must be indicated),
+  - jurors by alphabetical order (after the defense only present jurors
+    must be cited and the president must be indicated),
   - keywords (in French and English),
   - abstract (in French and English).
 
