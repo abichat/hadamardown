@@ -13,7 +13,7 @@ status](https://travis-ci.org/abichat/hadamardown.svg?branch=master)](https://tr
 <!-- badges: end -->
 
 The **hadamardown** package provides a handy template to write a PhD
-thesis for **Ecole Doctorale de Mathématiques Hadamard** with R and
+thesis for **École Doctorale de Mathématiques Hadamard** with R and
 markdown. It is based on the
 [thesisdown](https://github.com/ismayc/thesisdown) package.
 
