@@ -20,14 +20,13 @@ knitr::opts_chunk$set(
 version <- as.vector(read.dcf('DESCRIPTION')[, 'Version'])
 version <- gsub('-', '.', version)
 ```
-[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
-[![packageversion](https://img.shields.io/badge/package%20version-`r version`-orange.svg)](commits/master)
+![packageversion](https://img.shields.io/badge/package%20version-`r version`-orange.svg)
+[![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
 [![Travis build status](https://travis-ci.org/abichat/hadamardown.svg?branch=master)](https://travis-ci.org/abichat/hadamardown)
+![Last-changedate](https://img.shields.io/badge/last%20change-`r gsub('-', '--', Sys.Date())`-yellowgreen.svg)
 <!-- badges: end -->
 
 The **hadamardown** package provides a handy template to write thesis for **Ecole Doctorale de Mathématiques Hadamard** with R and markdown. It is based on the [thesisdown](https://github.com/ismayc/thesisdown) package.
-
-**As of now, documentation is not finished.**
 
 ## Installation
 
@@ -58,11 +57,41 @@ Front page            |  Back cover
 
 Official EDMH templates are provided [here](https://www.universite-paris-saclay.fr/fr/formation/doctorat/ecole-doctorale-de-mathematiques-hadamard-edmh#page-de-garde-des-theses-de-l-edmh).
 
-## Documentation
+## Using hadamardown
 
 You can find general documentation for [bookdown](https://bookdown.org/yihui/bookdown/) or [thesisdown](https://github.com/ismayc/thesisdown) on their respective pages.
 
-### Hadamardown specificity
+Once you have LaTeX, RStudio and **hadamardown** installed on your computer (check [here](https://github.com/ismayc/thesisdown#using-thesisdown-from-chesters-github)), use 
+`File > New File > R Markdown... > From template` and then select EDMH Thesis.
+
+<img src="inst/img/new_r_markdown.jpg"/> 
+
+You need to use `index` for the name (to ensure you have a `index.html` file at the end) but you can change your directory name later. 
+
+
+### Complete YAML
+
+You need to fill these fields in the YAML to customize your manuscript according to EDMH standards:
+
+* author, 
+* date (of defense),
+* title (in French and English),
+* thesis national number thesis (after the defense, for the second deposit),
+* speciality,
+* grouping institution with logo (Saclay or IPP),
+* registration institution with logo,
+* host institution with logo (if different from above),
+* host laboratory with logo,
+* rapporteurs,
+* jujors by alphabetical order (after the defense only presents must be cited and the president must be indicated),
+* keywords (in French and English),
+* abstract (in French and English).
+
+You can also add sections that will be dislayed only in the pdf output: abstract, acknowledgements, dedication and preface. 
+
+Note that the logo size refers to image width. Do not hesitate to adapt it for your own manuscript.
+
+### Available entities
 
 These entities are available by default with their logo:
 
@@ -109,4 +138,6 @@ These entities are available by default with their logo:
   * [Services Répartis, Architectures, Modélisation, Validation, Administration des Réseaux, UMR 5157 CNRS](inst/rmarkdown/templates/edmh_thesis/skeleton/logos/samovar.jpg)
   * [Unité de Mathématiques Appliquées, ENSTA-CNRS-INRIA](inst/rmarkdown/templates/edmh_thesis/skeleton/logos/uma.jpg)
 
-Please feel free to open an issue or contact me if you notice a typo or a lack of updates in graphics guidelines. 
+Please feel free to create an issue or a pull request if you notice a typo or a lack of updates in graphics guidelines or you want to contribute to the package.
+
+
