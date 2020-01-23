@@ -9,7 +9,7 @@
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
 [![Travis build
 status](https://travis-ci.org/abichat/hadamardown.svg?branch=master)](https://travis-ci.org/abichat/hadamardown)
-![Last-changedate](https://img.shields.io/badge/last%20change-2020--01--22-yellowgreen.svg)
+![Last-changedate](https://img.shields.io/badge/last%20change-2020--01--23-yellowgreen.svg)
 <!-- badges: end -->
 
 The **hadamardown** package provides a handy template to write a PhD
@@ -44,6 +44,9 @@ Paris**:
 
 Official EDMH templates are provided
 [here](https://www.universite-paris-saclay.fr/fr/formation/doctorat/ecole-doctorale-de-mathematiques-hadamard-edmh#page-de-garde-des-theses-de-l-edmh).
+
+The HTML output is the same as the [thesisdown
+one](https://thesisdown.netlify.com).
 
 ## Using hadamardown
 

@@ -57,6 +57,8 @@ Front page            |  Back cover
 
 Official EDMH templates are provided [here](https://www.universite-paris-saclay.fr/fr/formation/doctorat/ecole-doctorale-de-mathematiques-hadamard-edmh#page-de-garde-des-theses-de-l-edmh).
 
+The HTML output is the same as the [thesisdown one](https://thesisdown.netlify.com).
+
 ## Using hadamardown
 
 You can find general documentation for [bookdown](https://bookdown.org/yihui/bookdown/) or [thesisdown](https://github.com/ismayc/thesisdown) on their respective pages.
