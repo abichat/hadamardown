@@ -6,11 +6,22 @@
 <!-- badges: start -->
 
 ![packageversion](https://img.shields.io/badge/package%20version-0.0.1-orange.svg)
-[![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
+[![lifecycle](https://img.shields.io/badge/lifecycle-retired-orange.svg)](https://www.tidyverse.org/lifecycle/#retired)
 [![Travis build
 status](https://travis-ci.org/abichat/hadamardown.svg?branch=master)](https://travis-ci.org/abichat/hadamardown)
-![Last-changedate](https://img.shields.io/badge/last%20change-2020--01--23-yellowgreen.svg)
+![Last-changedate](https://img.shields.io/badge/last%20change-2020--01--24-yellowgreen.svg)
 <!-- badges: end -->
+
+⚠️ **Please note that this template is deprecated for both Université
+Paris-Saclay and Institut Polytechnique de Paris.**
+
+New templates can be found
+[here](https://www.universite-paris-saclay.fr/fr/formation/doctorat/ecole-doctorale-de-mathematiques-hadamard-edmh#page-de-couverture-des-theses)
+and
+[there](https://www.ip-paris.fr/formation/doctorats/ecole-doctorale-ip-paris/#1568627927171-f29bf005-eee8)
+but there is no R package implementing them (for the moment).
+
+<hr>
 
 The **hadamardown** package provides a handy template to write a PhD
 thesis for **École Doctorale de Mathématiques Hadamard** with R and
