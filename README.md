@@ -19,7 +19,8 @@ New templates can be found
 [here](https://www.universite-paris-saclay.fr/fr/formation/doctorat/ecole-doctorale-de-mathematiques-hadamard-edmh#page-de-couverture-des-theses)
 and
 [there](https://www.ip-paris.fr/formation/doctorats/ecole-doctorale-ip-paris/#1568627927171-f29bf005-eee8)
-but there is no R package implementing them (for the moment).
+but there is no LaTeX files or R package implementing them (for the
+moment).
 
 <hr>
 
