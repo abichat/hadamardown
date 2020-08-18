@@ -1,0 +1,4 @@
+name: Saclay Thesis
+description: >
+ Template for creating a Thesis at Saclay and EDMH using R Markdown based on bookdown and thesisdown packages.
+
