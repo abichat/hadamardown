@@ -14,7 +14,7 @@ library(usethis)
 
 # use_travis()
 
-# badgecreatr::badge_lifecycle("retired")
+badgecreatr::badge_lifecycle("stable")
 
 attachment::att_to_description()
 
