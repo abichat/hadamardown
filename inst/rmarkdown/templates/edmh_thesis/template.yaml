@@ -1,4 +1,4 @@
-name:  EDMH Thesis
+name: Old EDMH Thesis
 description: >
- Template for creating a Thesis at EDMH using R Markdown based on bookdown and thesisdown packages.
+ Deprecated template for creating a thesis at EDMH using R Markdown based on bookdown and thesisdown packages.
 
