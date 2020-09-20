@@ -5,11 +5,11 @@
 
 <!-- badges: start -->
 
-![packageversion](https://img.shields.io/badge/package%20version-0.1.0-orange.svg)
+![packageversion](https://img.shields.io/badge/package%20version-0.1.1-orange.svg)
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
 [![Travis build
 status](https://travis-ci.org/abichat/hadamardown.svg?branch=master)](https://travis-ci.org/abichat/hadamardown)
-![Last-changedate](https://img.shields.io/badge/last%20change-2020--08--18-yellowgreen.svg)
+![Last-changedate](https://img.shields.io/badge/last%20change-2020--09--20-yellowgreen.svg)
 <!-- badges: end -->
 
 The **hadamardown** package provides a handy template to write a PhD
