@@ -7,8 +7,8 @@
 
 ![packageversion](https://img.shields.io/badge/package%20version-0.1.1-orange.svg)
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
-[![Travis build
-status](https://travis-ci.org/abichat/hadamardown.svg?branch=master)](https://travis-ci.org/abichat/hadamardown)
+[![R build
+status](https://github.com/abichat/hadamardown/workflows/R-CMD-check/badge.svg)](https://github.com/abichat/hadamardown/actions)
 ![Last-changedate](https://img.shields.io/badge/last%20change-2020--09--20-yellowgreen.svg)
 <!-- badges: end -->
 
