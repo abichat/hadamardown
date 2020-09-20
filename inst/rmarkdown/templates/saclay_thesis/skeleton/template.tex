@@ -300,7 +300,9 @@ $body$
 
 
 % 4eme de couverture
-\Ifthispageodd{\newpage\thispagestyle{empty}\null\newpage}{}
+\ifthispageodd{\newpage\thispagestyle{empty}\null\newpage}{}
+% Use the next command with TeX Live version ≥ 2020
+%\Ifthispageodd{\newpage\thispagestyle{empty}\null\newpage}{}
 \thispagestyle{empty}
 \newgeometry{top=1.5cm, bottom=1.25cm, left=2cm, right=2cm}
 \fontfamily{rm}\selectfont
