@@ -180,7 +180,7 @@ $endif$
 %**************** TITRE / TITLE **********************
 %*****************************************************
 \flushright
-\vspace{10mm} % largeur à régler éventuellement / width to adjust if necessary
+\vspace{15mm} % largeur à régler éventuellement / width to adjust if necessary
 \color{Prune}
 \fontfamily{fvs}\fontseries{m}\fontsize{22}{26}\selectfont
   $titre_francais$
@@ -190,44 +190,28 @@ $endif$
 
 %\fontfamily{fvs}\fontseries{m}\fontsize{8}{12}\selectfont
 \normalsize
-\vspace{1.5cm}
+\vspace{15mm}
 
 \color{black}
 \textbf{Thèse de doctorat de l'Université Paris-Saclay}
 
-\vspace{15mm}
+\vspace{10mm}
 
 \hspace*{-0.7cm}$ecole_doctotrale$\\
 \small Spécialité de doctorat~: $specialite$\\
 \footnotesize Unité de recherche~: $unite$\\
-\footnotesize Référent~: $referent$\\
-\vspace{15mm}
+\footnotesize Référent~: $referent$
 
-\textbf{Thèse présentée et soutenue à $lieu$, le $date_jma$, par}\\
+\vspace{10mm}
+
+\textbf{Thèse présentée et soutenue à $lieu$, le $date_jma$, par}
 \bigskip
 \Large {\color{Prune} \textbf{$prenom$ $nom$}}
 
+\vspace{15mm}
 
-
-\vfill
-\flushleft \small
-\textbf{Au vu des rapports de :}
+\flushleft \normalsize \textbf{Composition du jury~:}
 \bigskip
-
-{\scriptsize
-\begin{tabular}{p{8cm}l}
-\textbf{$rap1_nom$} &  $rap1_qualite$ \\
-$rap1_titre$   &   \\
-\textbf{$rap2_nom$} &  $rap2_qualite$ \\
-$rap2_titre$  &   \\
-\end{tabular}}
-
-\bigskip
-\bigskip
-
-\textbf{Composition du jury~:}
-\bigskip
-
 
 \scriptsize
 \begin{tabular}{|p{8cm}l}
@@ -244,6 +228,10 @@ $jur4_titre$ & \\
 $jur5_titre$ & \\
 \textbf{$jur6_nom$} &  $jur6_qualite$\\
 $jur6_titre$ & \\
+\end{tabular}
+
+\begin{tabular}{p{8cm}l}
+& \\
 \textbf{$jur7_nom$} &  $jur7_qualite$\\
 $jur7_titre$ & \\
 \textbf{$jur8_nom$} &  $jur8_qualite$\\

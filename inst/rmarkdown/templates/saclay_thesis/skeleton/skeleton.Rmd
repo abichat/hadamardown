@@ -6,7 +6,8 @@ knit: bookdown::render_book
 site: bookdown::bookdown_site
 output:
   thesisdown::thesis_pdf: default 
-#  thesisdown::thesis_gitbook: default
+  thesisdown::thesis_gitbook: 
+    anchor_sections: false
 #  thesisdown::thesis_word: default
 #  thesisdown::thesis_epub: default
 #########################
@@ -31,66 +32,55 @@ logo_ecole_doctotrale: "logos/edmh.jpg"
 specialite: "Mathématique fondamentale"
 #specialite: "Mathématiques appliquées"
 #specialite: "Mathématiques aux interfaces"
-unite: "Centre Borelli (ENS Paris-Saclay), UMR 9010 CNRS"
-#unite: "Centre Borelli (ENS Paris-Saclay), UMR 9010 CNRS"
-#unite: "Département de mathématiques et applications \\(ENS Ulm), UMR 8553 CNRS"
-#unite: "Fédération de Mathématiques \\(CentraleSupélec), FR 3487 CNRS"
-#unite: "Institut de physique théorique de Saclay \\(CEA), URA 2306 CNRS"
-#unite: "Laboratoire Alexander Grothendieck \\(IHES), ERL 9216 CNRS"
-#unite: "Laboratoire de mathématiques d'Orsay \\(Faculté des sciences d'Orsay), UMR 8628 CNRS"
-#unite: "Laboratoire de mathématiques de Versailles \\(UVSQ), UMR 8100 CNRS"
-#unite: "Laboratoire de mathématiques et modélisation d'Evry (UEVE), UMR 8071 CNRS-INRA"
-#unite: "Mathématiques et informatique appliquées \\(AgroParisTech), UMR 518 INRA"
-#unite: "Mathématiques et informatique appliquées du génome à l'environnement (INRA), UR 1404"
-referent: "Centrale-Supélec"
+# Liste des unités / list of units :
+# https://www.universite-paris-saclay.fr/recherche/services-aux-chercheurs/comment-signer-une-publication-de-recherche
+unite: "Université Paris-Saclay, CNRS, ENS Paris-Saclay, Centre Borelli, 91190, Gif-sur-Yvette, France"
+#unite: "Université Paris-Saclay, CNRS, CEA, Institut de physique théorique, 91191, Gif-sur-Yvette, France"
+#unite: "Université Paris-Saclay, IHES, CNRS, Laboratoire Alexander Grothendieck, 91440, Bures-sur-Yvette, France"
+#unite: "Université Paris-Saclay, CNRS, Laboratoire de mathématiques d'Orsay, 91405, Orsay, France"
+#unite: "Université Paris-Saclay, UVSQ, CNRS, Laboratoire de mathématiques de Versailles, 78000, Versailles, France"
+#unite: "Université Paris-Saclay, CNRS, Univ Evry, Laboratoire de Mathématiques et Modélisation d'Evry, 91037, Evry-Courcouronnes, France"
+#unite: "Université Paris-Saclay, AgroParisTech, INRAE, UMR MIA-Paris, 75005, Paris, France"
+#unite: "Université Paris-Saclay, INRAE, MaIAGE, 78350, Jouy-en-Josas, France"
+referent: "AgroParisTech"
+#referent: "CentraleSupélec"
 #referent: "Ecole normale supérieure de Paris-Saclay"
 #referent: "Faculté des sciences d'Orsay"
-#referent: "Université d'Evry-Val d'Essonne"
+#referent: "Université d'Évry-Val d'Essonne"
 #referent: "Université de Versailles Saint-Quentin-en-Yvelines"
-#####################
-#### Rapporteurs ####
-#####################
-rap1_nom: "Prénom Nom 1"
-rap1_qualite: "Rapportrice 1"
-rap1_titre: "Titre, Affiliation 1"
-rap2_nom: "Prénom Nom 2"
-rap2_qualite: "Rapporteur 2"
-rap2_titre: "Titre, Affiliation 2"
 ##############
 #### Jury ####
 ##############
-## Par ordre alphabétique, ne mettre les rapporteurs que s'ils font
-## partie du jury, ne mettre le président qu'après la soutenance
-## pour le second dépôt légal. /
-## By alphabetical order, include the referees only if they are jury
-## members, indicate the president only after the defense for the
-## second legal deposit.
-## À adapter dans le fichier template.tex en fonction du nombre
-jur1_nom: "Prénom Nom 1"
-jur1_qualite: "Coencadrante 1"
+## Par rôle puis ordre alphabétique
+## Ne mettre le président qu'après la soutenance 
+## Séparer les membres qui participent aux délibarétion des autres
+## À adapter si besoin dans le fichier template.tex 
+jur1_nom: "Prénom NOM 1"
+jur1_qualite: "Présidente 1"
 jur1_titre: "Titre, Affiliation 1"
-jur2_nom: "Prénom Nom 2"
-jur2_qualite: "Rapportrice 2"
+jur2_nom: "Prénom NOM 2"
+jur2_qualite: "Rapporteur et examinateur 2"
 jur2_titre: "Titre, Affiliation 2"
-jur3_nom: "Prénom Nom 3"
+jur3_nom: "Prénom NOM 3"
 jur3_qualite: "Rapporteur 3"
 jur3_titre: "Titre, Affiliation 3"
-jur4_nom: "Prénom Nom 4"
+jur4_nom: "Prénom NOM 4"
 jur4_qualite: "Examinatrice 4"
 jur4_titre: "Titre, Affiliation 4"
-jur5_nom: "Prénom Nom 5"
+jur5_nom: "Prénom NOM 5"
 jur5_qualite: "Examinateur 5"
 jur5_titre: "Titre, Affiliation 5"
-jur6_nom: "Prénom Nom 6"
-jur6_qualite: "Président 6"
+jur6_nom: "Prénom NOM 6"
+jur6_qualite: "Examinateur 6"
 jur6_titre: "Titre, Affiliation 6"
-jur7_nom: "Prénom Nom 7"
+## Séparation ici, à adapter si besoin dans le fichier template.tex 
+jur7_nom: "Prénom NOM 7"
 jur7_qualite: "Directrice 7"
 jur7_titre: "Titre, Affiliation 7"
-jur8_nom: "Prénom Nom 8"
+jur8_nom: "Prénom NOM 8"
 jur8_qualite: "Codirecteur 8"
 jur8_titre: "Titre, Affiliation 8"
-jur9_nom: "Prénom Nom 9"
+jur9_nom: "Prénom NOM 9"
 jur9_qualite: "Invité 9"
 jur9_titre: "Titre, Affiliation 9"
 #################################

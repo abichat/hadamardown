@@ -46,7 +46,7 @@ Front page            |  Back cover
 <img src="inst/img/cover.jpg"/>  |  <img src="inst/img/back.jpg"/>
 
 
-Official Saclay templates are provided [here](https://www.universite-paris-saclay.fr/ecoles-doctorales/ecole-doctorale-de-mathematiques-hadamard-edmh#bloc6-2).
+Official Saclay templates are provided [here](https://www.universite-paris-saclay.fr/research/textes-de-reference/documents-de-reference-relatifs-la-soutenance-de-la-these#model-cover).
 
 The HTML output is the same as the [thesisdown one](https://thesisdown.netlify.com).
 

@@ -5,11 +5,11 @@
 
 <!-- badges: start -->
 
-![packageversion](https://img.shields.io/badge/package%20version-0.1.2-orange.svg)
+![packageversion](https://img.shields.io/badge/package%20version-0.1.3-orange.svg)
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
 [![R build
 status](https://github.com/abichat/hadamardown/workflows/R-CMD-check/badge.svg)](https://github.com/abichat/hadamardown/actions)
-![Last-changedate](https://img.shields.io/badge/last%20change-2020--10--01-yellowgreen.svg)
+![Last-changedate](https://img.shields.io/badge/last%20change-2020--11--06-yellowgreen.svg)
 <!-- badges: end -->
 
 The **hadamardown** package provides a handy template to write a PhD
@@ -33,7 +33,7 @@ remotes::install_github("abichat/hadamardown")
 | <img src="inst/img/cover.jpg"/> | <img src="inst/img/back.jpg"/> |
 
 Official Saclay templates are provided
-[here](https://www.universite-paris-saclay.fr/ecoles-doctorales/ecole-doctorale-de-mathematiques-hadamard-edmh#bloc6-2).
+[here](https://www.universite-paris-saclay.fr/research/textes-de-reference/documents-de-reference-relatifs-la-soutenance-de-la-these#model-cover).
 
 The HTML output is the same as the [thesisdown
 one](https://thesisdown.netlify.com).
