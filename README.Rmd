@@ -29,6 +29,9 @@ version <- gsub('-', '.', version)
 
 The **hadamardown** package provides a handy template to write a PhD thesis for **Université Paris-Saclay** and **École Doctorale de Mathématiques Hadamard** with R and markdown. It is based on the [thesisdown](https://github.com/ismayc/thesisdown) package.
 
+`r emo::ji("warning")` Don't forget to check that the templates provided by **hadamardown** are up to date with the official ones. If not, please fill an [issue](https://github.com/abichat/hadamardown/issues/new). 
+
+
 ## Installation
 
 You can install **hadamardown** from GitHub with:

@@ -5,17 +5,21 @@
 
 <!-- badges: start -->
 
-![packageversion](https://img.shields.io/badge/package%20version-0.1.3-orange.svg)
+![packageversion](https://img.shields.io/badge/package%20version-0.1.4-orange.svg)
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
 [![R build
 status](https://github.com/abichat/hadamardown/workflows/R-CMD-check/badge.svg)](https://github.com/abichat/hadamardown/actions)
-![Last-changedate](https://img.shields.io/badge/last%20change-2020--11--06-yellowgreen.svg)
+![Last-changedate](https://img.shields.io/badge/last%20change-2020--12--06-yellowgreen.svg)
 <!-- badges: end -->
 
 The **hadamardown** package provides a handy template to write a PhD
 thesis for **Université Paris-Saclay** and **École Doctorale de
 Mathématiques Hadamard** with R and markdown. It is based on the
 [thesisdown](https://github.com/ismayc/thesisdown) package.
+
+⚠️ Don’t forget to check that the templates provided by **hadamardown**
+are up to date with the official ones. If not, please fill an
+[issue](https://github.com/abichat/hadamardown/issues/new).
 
 ## Installation
 
