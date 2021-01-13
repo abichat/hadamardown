@@ -5,11 +5,11 @@
 
 <!-- badges: start -->
 
-![packageversion](https://img.shields.io/badge/package%20version-0.1.4-orange.svg)
+![packageversion](https://img.shields.io/badge/package%20version-0.1.5-orange.svg)
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
 [![R build
 status](https://github.com/abichat/hadamardown/workflows/R-CMD-check/badge.svg)](https://github.com/abichat/hadamardown/actions)
-![Last-changedate](https://img.shields.io/badge/last%20change-2020--12--06-yellowgreen.svg)
+![Last-changedate](https://img.shields.io/badge/last%20change-2021--01--13-yellowgreen.svg)
 <!-- badges: end -->
 
 The **hadamardown** package provides a handy template to write a PhD
@@ -66,3 +66,9 @@ according to Saclay and EDMH standards.
 Please feel free to create an issue or a pull request if you notice a
 typo or a lack of updates in graphics guidelines or you want to
 contribute to the package.
+
+## Manuscripts with hadamardown
+
+  - [Discovering multi-scale metagenomic signatures through hierarchical
+    organization of species](https://abichat.github.io/thesis/) by
+    Antoine Bichat (2020).
