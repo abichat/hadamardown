@@ -174,6 +174,7 @@
 \renewcommand{\cleardoublepage}{\RTcleardoublepage}
 
 % adjust margins for binding  (changed 2007-04-24 tgp)
+\newcommand{\addamargin}{
 \setlength{\oddsidemargin}{.5in}
 \setlength{\evensidemargin}{0in}
 \setlength{\textwidth}{6.0in}
@@ -181,6 +182,7 @@
 \setlength\topmargin{0in}
 \addtolength\topmargin{-\headheight}
 \addtolength\topmargin{-\headsep}
+}
 
 %\setlength{\oddsidemargin}{.6in}
 %\setlength{\evensidemargin}{0in}
