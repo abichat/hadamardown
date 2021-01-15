@@ -14,6 +14,10 @@ library(usethis)
 
 # use_travis()
 
+# usethis::use_github_action_check_release()
+
+# use_news_md()
+
 badgecreatr::badge_lifecycle("stable")
 
 attachment::att_to_description()

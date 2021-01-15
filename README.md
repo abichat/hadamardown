@@ -5,17 +5,21 @@
 
 <!-- badges: start -->
 
-![packageversion](https://img.shields.io/badge/package%20version-0.1.0-orange.svg)
+![packageversion](https://img.shields.io/badge/package%20version-0.1.5-orange.svg)
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
-[![Travis build
-status](https://travis-ci.org/abichat/hadamardown.svg?branch=master)](https://travis-ci.org/abichat/hadamardown)
-![Last-changedate](https://img.shields.io/badge/last%20change-2020--08--18-yellowgreen.svg)
+[![R build
+status](https://github.com/abichat/hadamardown/workflows/R-CMD-check/badge.svg)](https://github.com/abichat/hadamardown/actions)
+![Last-changedate](https://img.shields.io/badge/last%20change-2021--01--13-yellowgreen.svg)
 <!-- badges: end -->
 
 The **hadamardown** package provides a handy template to write a PhD
 thesis for **Université Paris-Saclay** and **École Doctorale de
 Mathématiques Hadamard** with R and markdown. It is based on the
 [thesisdown](https://github.com/ismayc/thesisdown) package.
+
+⚠️ Don’t forget to check that the templates provided by **hadamardown**
+are up to date with the official ones. If not, please fill an
+[issue](https://github.com/abichat/hadamardown/issues/new).
 
 ## Installation
 
@@ -33,7 +37,7 @@ remotes::install_github("abichat/hadamardown")
 | <img src="inst/img/cover.jpg"/> | <img src="inst/img/back.jpg"/> |
 
 Official Saclay templates are provided
-[here](https://www.universite-paris-saclay.fr/ecoles-doctorales/ecole-doctorale-de-mathematiques-hadamard-edmh#bloc6-2).
+[here](https://www.universite-paris-saclay.fr/research/textes-de-reference/documents-de-reference-relatifs-la-soutenance-de-la-these#model-cover).
 
 The HTML output is the same as the [thesisdown
 one](https://thesisdown.netlify.com).
@@ -62,3 +66,9 @@ according to Saclay and EDMH standards.
 Please feel free to create an issue or a pull request if you notice a
 typo or a lack of updates in graphics guidelines or you want to
 contribute to the package.
+
+## Manuscripts with hadamardown
+
+  - [Discovering multi-scale metagenomic signatures through hierarchical
+    organization of species](https://abichat.github.io/thesis/) by
+    Antoine Bichat (2020).
