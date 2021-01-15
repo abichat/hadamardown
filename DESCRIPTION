@@ -1,7 +1,7 @@
 Package: hadamardown
 Title: RMarkdown template for theses written at Université
     Paris-Saclay and Ecole Doctorale de Mathématiques Hadamard
-Version: 0.1.5
+Version: 0.1.6
 Authors@R: 
     c(person(given = "Antoine",
              family = "Bichat",
